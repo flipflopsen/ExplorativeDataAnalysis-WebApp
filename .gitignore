@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Node / frontend build (04_visualization also has its own .gitignore)
+04_visualization/node_modules/
+04_visualization/dist/
+04_visualization/tsconfig.tsbuildinfo
+
+# All CSV and JSON files anywhere under 01_data
+/01_data/**/*.csv
+/01_data/**/*.json
+
+# Generated datasets and databases
+/01_data/processed/
+/01_data/databases/*.db
+/project_data.db
+
+# Raw data: retain documentation only
+/01_data/raw/**
+!/01_data/raw/README.md
+
+# Generated data cache and local databases
+01_data/processed/
+01_data/databases/*.db
+project_data.db
+
+# Generated data cache and local databases
+01_data/processed/
+01_data/databases/*.db
+project_data.db
+
+# CSV and JSON data anywhere under 01_data
+01_data/**/*.csv
+01_data/**/*.json
+
+# Exclude everything else in raw, except its documentation
+01_data/raw/**
+!01_data/raw/README.md
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+TODO.md

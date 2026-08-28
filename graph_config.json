@@ -1,0 +1,84 @@
+{
+  "$schema_comment": "Defaults for graph forces & themes. Edit and reload the page; or change live in the UI (changes are session-only unless saved back here).",
+  "forces": {
+    "simulationDecay": 1000,
+    "simulationGravity": 0.2,
+    "simulationCenter": 0.4,
+    "simulationRepulsion": 0.5,
+    "simulationRepulsionTheta": 1.15,
+    "simulationLinkSpring": 0.7,
+    "simulationLinkDistance": 10,
+    "simulationFriction": 0.93,
+    "simulationCluster": 0.05,
+    "simulationRepulsionFromMouse": 0.0,
+    "spaceSize": 8192
+  },
+  "rendering": {
+    "pointDefaultSize": 4,
+    "linkDefaultWidth": 1,
+    "linkOpacity": 0.6,
+    "pointOpacity": 0.95,
+    "renderHoveredPointRing": true,
+    "curvedLinks": false
+  },
+  "defaultTheme": "ayu-dark",
+  "themes": {
+    "ayu-dark": {
+      "label": "Ayu Dark",
+      "background": "#0f1419",
+      "node": "#ffb454",
+      "link": "#3d4751",
+      "text": "#e6e1cf",
+      "accent": "#39bae6",
+      "panel": "#14191f",
+      "border": "#2a2f3a"
+    },
+    "atom-one-dark": {
+      "label": "Atom One Dark",
+      "background": "#282c34",
+      "node": "#61afef",
+      "link": "#3e4451",
+      "text": "#abb2bf",
+      "accent": "#c678dd",
+      "panel": "#21252b",
+      "border": "#3e4451"
+    },
+    "material-dark": {
+      "label": "Material Dark",
+      "background": "#263238",
+      "node": "#80cbc4",
+      "link": "#37474f",
+      "text": "#eceff1",
+      "accent": "#ff7043",
+      "panel": "#1c262b",
+      "border": "#37474f"
+    },
+    "dracula": {
+      "label": "Dracula",
+      "background": "#282a36",
+      "node": "#bd93f9",
+      "link": "#44475a",
+      "text": "#f8f8f2",
+      "accent": "#50fa7b",
+      "panel": "#21222c",
+      "border": "#44475a"
+    },
+    "solarized-light": {
+      "label": "Solarized Light",
+      "background": "#fdf6e3",
+      "node": "#268bd2",
+      "link": "#93a1a1",
+      "text": "#073642",
+      "accent": "#cb4b16",
+      "panel": "#eee8d5",
+      "border": "#93a1a1"
+    }
+  },
+  "colorScales": {
+    "numeric": ["#440154", "#3b528b", "#21918c", "#5ec962", "#fde725"],
+    "categorical": [
+      "#7aa8ff", "#ffb454", "#5ec962", "#ff7eb6", "#c678dd",
+      "#39bae6", "#ff6b6b", "#80cbc4", "#bd93f9", "#fde725"
+    ]
+  }
+}
