@@ -97,9 +97,3 @@ must never be exposed on a LAN without auth.
   and an empty placeholder at `01_data/databases/project_data.db` created by
   `CreateDirs.sh`); both are excluded via `.gitignore`.
 - No automated tests were identified in the repository.
-
-## License
-
-No license has currently been assigned. The source code is published for
-inspection and portfolio purposes; no permission for reuse, modification, or
-redistribution is implied.
