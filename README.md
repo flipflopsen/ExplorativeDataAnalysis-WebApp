@@ -69,9 +69,9 @@ uv run python -c "import sys, importlib.util, pathlib as p; \
 ## Repository layout
 
 ```
-00_plans/        Design notes (WebApp_Plan.md)
 01_data/         raw/, processed/ (Parquet cache), databases/
 02_src/          Python backend  → loaded as `edaapp`
+03_docs/         Normally the documentation, but since there is no 'public' API for any reason or the need of complex developer documentations, I left them out of the repo.
 04_visualization/ React + TS + Vite frontend
 app.py           Root launcher (registers 02_src as `edaapp`, runs uvicorn)
 Makefile         install / dev / build / run targets
