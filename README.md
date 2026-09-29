@@ -81,19 +81,3 @@ Makefile         install / dev / build / run targets
 
 The server binds to `127.0.0.1` only — datasets are held in process memory and
 must never be exposed on a LAN without auth.
-
-## Known limitations
-
-- **Observed:** `main.py` and `main_analysis.py` at the repository root are
-  standalone scripts (a generic pandas/scikit-learn demo and a SQLite ETL
-  example) unrelated to the FastAPI/React application described above; they
-  are not invoked by `app.py`, the `Makefile`, or `02_src/`.
-- **Observed:** `03_notebooks/exploration`, `03_notebooks/modeling`, `04_docs/`,
-  and the root-level `utils/` directory are empty placeholders.
-- **Observed:** `CreateDirs.sh` contains a hard-coded personal path in a comment
-  (`/home/flip/Uni/DataAnalysis`); it is not required by any other script.
-- **Observed:** Two distinct `project_data.db` SQLite files exist
-  (`project_data.db` at the repository root, populated by `main_analysis.py`,
-  and an empty placeholder at `01_data/databases/project_data.db` created by
-  `CreateDirs.sh`); both are excluded via `.gitignore`.
-- No automated tests were identified in the repository.
