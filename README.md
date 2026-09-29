@@ -15,7 +15,7 @@ heatmap, box, map) over the selected rows.
   ~1M nodes). Charts via Plotly WebGL.
 - **Layout** — `02_src/` Python package (loaded under the alias `edaapp` because
   Python identifiers cannot start with a digit). All UI lives in
-  `04_visualization/`. The plan is in `00_plans/WebApp_Plan.md`.
+  `04_visualization/`.
 
 ## Install
 
